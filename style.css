@@ -1,0 +1,68 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    height: auto;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#apps {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#account {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+#upper-left-links {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 16px;
+    top: 20px;
+}
+
+#upper-right-links {
+    height: auto;
+    width: auto;
+    position: absolute;
+    right: 102px;
+    top: 22px;
+}
+
+#upper-right-icons {
+    height: auto;
+    width: auto;
+    position: absolute;
+    right: 18px;
+    top: 12px;
+}
