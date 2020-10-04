@@ -30,6 +30,28 @@ a:hover {
     text-decoration: underline;
 }
 
+input {
+    width: 540px;
+    height: 40px;
+    margin-left: 90px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    font-size: 16px;
+    background-image: url('searchicon.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 12px;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+input:focus {
+    outline: none;
+    padding-left: 45px;
+}
+
 #apps {
     height: 25px;
     width: 25px;
@@ -70,7 +92,7 @@ a:hover {
 #logo-container {
     margin: auto;
     width: 50%;
-    padding-top: 100px;
+    padding-top: 145px;
 }
 
 #google-logo {
@@ -78,3 +100,10 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
+#searchbar-container {
+    margin: auto;
+    width: 50%;
+    padding-top: 30px;
+}
+
