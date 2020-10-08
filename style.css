@@ -18,6 +18,16 @@ nav {
     justify-content: center;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    width: 100%;
+}
+
 .container {
     display: inline-block;
 }
@@ -119,7 +129,7 @@ nav {
     display: flex;
     gap: 15px;
     margin-top: 15px;
-    margin-left: 16px
+    margin-left: 16px;
 }
 
 #top-right-links {
@@ -144,11 +154,26 @@ nav {
 }
 
 #sign-in {
-    width: 100px;
     color: white; 
-    background-color: blue;
-    border: none;
-    border-radius: 5px;
+    background-color: #1A73E8;
+    padding: 9px 15px;
+    min-width: 80px;
+    margin-left: 8px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#bottom-links-left {
+    display: flex;
+    gap: 15px;
+    margin-left: 16px; 
 }
 
 
